@@ -1,0 +1,4 @@
+I like cats: they are great animals, and their name is a Unix command.
+Mine is called Cathy.
+On the other hand, dogs are friendly and not as reclusive.
+Overall, cats and dogs are good pets.
