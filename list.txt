@@ -1,0 +1,9 @@
+README
+advanced
+animals
+dir1
+dir2
+file.txt
+filea
+list.txt
+notempty
