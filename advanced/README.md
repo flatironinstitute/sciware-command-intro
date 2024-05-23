@@ -1,5 +1,5 @@
 If you are already familiar with the standard files and directories manipulation, here are some more advanced Unix tools.
-Note that if you already have your email access, you can look further into the Unix guide on the wiki: https://wiki.flatironinstitute.org/SCC.Software/UnixIntroduction
+You can find the Unix guide on the wiki: https://wiki.flatironinstitute.org/Public/UnixIntroduction
 
 In the following, lines that you should put in your prompts start with the $ sign (aka you can copy-paste what comes after)
 
