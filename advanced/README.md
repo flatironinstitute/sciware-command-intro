@@ -1,8 +1,6 @@
 If you are already familiar with the standard files and directories manipulation, here are some more advanced Unix tools.
 You can find the Unix guide on the wiki: https://wiki.flatironinstitute.org/Public/UnixIntroduction
 
-In the following, lines that you should put in your prompts start with the `$` sign (aka you can copy-paste what comes after)
-
 # Text manipulation
 Inside data/input, you will find a file named `animals.txt` It is used as the input file for the following examples:
 
@@ -10,8 +8,8 @@ Inside data/input, you will find a file named `animals.txt` It is used as the in
 `grep <pattern>` is a command that shows you the lines that match a pattern in a file or a string. This pattern can be a full-fledged regular expression.
 ### Try the following:
 ```console
-$ grep cat animals.txt
-$ grep -i cat animals.txt
+grep cat animals.txt
+grep -i cat animals.txt
 ```
 
 ### And some more advanced functionality:
@@ -22,18 +20,18 @@ Finally, you can use regular expressions using `grep -E <regular_expression>`
 
 ## sed
 The sed command is used to edit a text quickly, especially to replace one string with another, using the syntax:
-```
+```console
 sed 's/<string1>/<string2>/' <filename>
 ```
 # Try:
 ```console
-$ sed 's/cat/bear/' animals.txt
+sed 's/cat/bear/' animals.txt
 ```
 
 ## tr
 The tr command is used to delete or replace characters.
 ```console
-$ echo "tata" | tr a o
+echo "tata" | tr a o
 ```
 
 # Exercise: Text manipulation
@@ -45,7 +43,7 @@ In `data/input` you will find a file called `hamlet_act_V_scene_I.txt`, which co
 # Exercise: awk + wget
 ## awk
 When data is stored in a formatted text file, awk is used to parse and output it. By default, it assumes that the data is organized by rows and columns, where rows are lines, and columns are separated with spaces or tabs (this is configurable). In this case, if for instance we want to print the first and third columns of each row, we can use:
-```
+```console
 awk '{print $1 $3}' <filename>
 ```
 Each column is identified by `$<N>` where N refers to the Nth column. `$0` is the complete line.
