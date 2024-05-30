@@ -55,4 +55,4 @@ GOAL: use awk to parse it, then generate wget lines that will download the diffe
 
 TIP: use man awk (and Google!) to know what FS does! Likewise, `wget -O` might be useful...
 
-A solution will be posted in the #sciware Slack channel on Friday June 2nd!
+A solution will be posted in the #sciware Slack channel on Friday June 7th!
