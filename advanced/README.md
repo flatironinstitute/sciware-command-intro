@@ -34,6 +34,12 @@ The tr command is used to delete or replace characters.
 echo "tata" | tr a o
 ```
 
+# Exercise: Text manipulation
+In `data/input` you will find a file called `hamlet_act_V_scene_I.txt`, which contains a scene from Shakespeare's _Hamlet_. It is a plain-text file where each character's dialogue is preceded by a line containing the character's name (Consider previewing the file with `head` or `vim` to get a feel for the format).
+## The exercise
+1) Find the number of lines spoken by "First Clown" in this scene.  _Hint: It may be useful to search the `grep` manpage for an option related to counting_
+2) Create a new file in which King Claudius speaks the Second Clown's lines
+
 # Exercise: awk + wget
 ## awk
 When data is stored in a formatted text file, awk is used to parse and output it. By default, it assumes that the data is organized by rows and columns, where rows are lines, and columns are separated with spaces or tabs (this is configurable). In this case, if for instance we want to print the first and third columns of each row, we can use:
